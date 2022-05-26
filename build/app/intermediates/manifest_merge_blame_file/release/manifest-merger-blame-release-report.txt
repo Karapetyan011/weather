@@ -1,0 +1,131 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.weather_hrant_prod"
+4    android:versionCode="4001"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->/Users/hrant011/AndroidStudioProjects/weather_hrant_prod/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->/Users/hrant011/AndroidStudioProjects/weather_hrant_prod/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/hrant011/AndroidStudioProjects/weather_hrant_prod/android/app/src/main/AndroidManifest.xml:3:5-67
+11-->/Users/hrant011/AndroidStudioProjects/weather_hrant_prod/android/app/src/main/AndroidManifest.xml:3:22-64
+12    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+12-->/Users/hrant011/AndroidStudioProjects/weather_hrant_prod/android/app/src/main/AndroidManifest.xml:4:5-85
+12-->/Users/hrant011/AndroidStudioProjects/weather_hrant_prod/android/app/src/main/AndroidManifest.xml:4:22-82
+13    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+13-->/Users/hrant011/AndroidStudioProjects/weather_hrant_prod/android/app/src/main/AndroidManifest.xml:5:5-79
+13-->/Users/hrant011/AndroidStudioProjects/weather_hrant_prod/android/app/src/main/AndroidManifest.xml:5:22-76
+14    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+14-->/Users/hrant011/AndroidStudioProjects/weather_hrant_prod/android/app/src/main/AndroidManifest.xml:6:5-81
+14-->/Users/hrant011/AndroidStudioProjects/weather_hrant_prod/android/app/src/main/AndroidManifest.xml:6:22-78
+15    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+15-->[:geolocator_android] /Users/hrant011/AndroidStudioProjects/weather_hrant_prod/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-77
+15-->[:geolocator_android] /Users/hrant011/AndroidStudioProjects/weather_hrant_prod/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-74
+16
+17    <application
+18        android:name="android.app.Application"
+18-->/Users/hrant011/AndroidStudioProjects/weather_hrant_prod/android/app/src/main/AndroidManifest.xml:10:9-42
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.6.0] /Users/hrant011/.gradle/caches/transforms-3/acbce933e4b464a5224ed377a62db1f5/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+20        android:icon="@mipmap/ic_launcher"
+20-->/Users/hrant011/AndroidStudioProjects/weather_hrant_prod/android/app/src/main/AndroidManifest.xml:11:9-43
+21        android:label="Weather Hrant Prod" >
+21-->/Users/hrant011/AndroidStudioProjects/weather_hrant_prod/android/app/src/main/AndroidManifest.xml:9:9-43
+22        <activity
+22-->/Users/hrant011/AndroidStudioProjects/weather_hrant_prod/android/app/src/main/AndroidManifest.xml:12:9-32:20
+23            android:name="com.example.weather_hrant_prod.MainActivity"
+23-->/Users/hrant011/AndroidStudioProjects/weather_hrant_prod/android/app/src/main/AndroidManifest.xml:13:13-41
+24            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+24-->/Users/hrant011/AndroidStudioProjects/weather_hrant_prod/android/app/src/main/AndroidManifest.xml:17:13-163
+25            android:exported="true"
+25-->/Users/hrant011/AndroidStudioProjects/weather_hrant_prod/android/app/src/main/AndroidManifest.xml:14:13-36
+26            android:hardwareAccelerated="true"
+26-->/Users/hrant011/AndroidStudioProjects/weather_hrant_prod/android/app/src/main/AndroidManifest.xml:18:13-47
+27            android:launchMode="singleTop"
+27-->/Users/hrant011/AndroidStudioProjects/weather_hrant_prod/android/app/src/main/AndroidManifest.xml:15:13-43
+28            android:theme="@style/LaunchTheme"
+28-->/Users/hrant011/AndroidStudioProjects/weather_hrant_prod/android/app/src/main/AndroidManifest.xml:16:13-47
+29            android:windowSoftInputMode="adjustResize" >
+29-->/Users/hrant011/AndroidStudioProjects/weather_hrant_prod/android/app/src/main/AndroidManifest.xml:19:13-55
+30
+31            <!--
+32                 Specifies an Android theme to apply to this Activity as soon as
+33                 the Android process has started. This theme is visible to the user
+34                 while the Flutter UI initializes. After that, this theme continues
+35                 to determine the Window background behind the Flutter UI.
+36            -->
+37            <meta-data
+37-->/Users/hrant011/AndroidStudioProjects/weather_hrant_prod/android/app/src/main/AndroidManifest.xml:24:13-27:17
+38                android:name="io.flutter.embedding.android.NormalTheme"
+38-->/Users/hrant011/AndroidStudioProjects/weather_hrant_prod/android/app/src/main/AndroidManifest.xml:25:15-70
+39                android:resource="@style/NormalTheme" />
+39-->/Users/hrant011/AndroidStudioProjects/weather_hrant_prod/android/app/src/main/AndroidManifest.xml:26:15-52
+40
+41            <intent-filter>
+41-->/Users/hrant011/AndroidStudioProjects/weather_hrant_prod/android/app/src/main/AndroidManifest.xml:28:13-31:29
+42                <action android:name="android.intent.action.MAIN" />
+42-->/Users/hrant011/AndroidStudioProjects/weather_hrant_prod/android/app/src/main/AndroidManifest.xml:29:17-68
+42-->/Users/hrant011/AndroidStudioProjects/weather_hrant_prod/android/app/src/main/AndroidManifest.xml:29:25-66
+43
+44                <category android:name="android.intent.category.LAUNCHER" />
+44-->/Users/hrant011/AndroidStudioProjects/weather_hrant_prod/android/app/src/main/AndroidManifest.xml:30:17-76
+44-->/Users/hrant011/AndroidStudioProjects/weather_hrant_prod/android/app/src/main/AndroidManifest.xml:30:27-74
+45            </intent-filter>
+46        </activity>
+47        <!--
+48             Don't delete the meta-data below.
+49             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+50        -->
+51        <meta-data
+51-->/Users/hrant011/AndroidStudioProjects/weather_hrant_prod/android/app/src/main/AndroidManifest.xml:35:9-37:33
+52            android:name="flutterEmbedding"
+52-->/Users/hrant011/AndroidStudioProjects/weather_hrant_prod/android/app/src/main/AndroidManifest.xml:36:13-44
+53            android:value="2" />
+53-->/Users/hrant011/AndroidStudioProjects/weather_hrant_prod/android/app/src/main/AndroidManifest.xml:37:13-30
+54
+55        <service
+55-->[:geolocator_android] /Users/hrant011/AndroidStudioProjects/weather_hrant_prod/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:9-16:56
+56            android:name="com.baseflow.geolocator.GeolocatorLocationService"
+56-->[:geolocator_android] /Users/hrant011/AndroidStudioProjects/weather_hrant_prod/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-77
+57            android:enabled="true"
+57-->[:geolocator_android] /Users/hrant011/AndroidStudioProjects/weather_hrant_prod/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-35
+58            android:exported="false"
+58-->[:geolocator_android] /Users/hrant011/AndroidStudioProjects/weather_hrant_prod/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-37
+59            android:foregroundServiceType="location" />
+59-->[:geolocator_android] /Users/hrant011/AndroidStudioProjects/weather_hrant_prod/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-53
+60
+61        <uses-library
+61-->[androidx.window:window:1.0.0-beta04] /Users/hrant011/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+62            android:name="androidx.window.extensions"
+62-->[androidx.window:window:1.0.0-beta04] /Users/hrant011/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+63            android:required="false" />
+63-->[androidx.window:window:1.0.0-beta04] /Users/hrant011/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+64        <uses-library
+64-->[androidx.window:window:1.0.0-beta04] /Users/hrant011/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+65            android:name="androidx.window.sidecar"
+65-->[androidx.window:window:1.0.0-beta04] /Users/hrant011/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+66            android:required="false" />
+66-->[androidx.window:window:1.0.0-beta04] /Users/hrant011/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+67
+68        <activity
+68-->[com.google.android.gms:play-services-base:17.0.0] /Users/hrant011/.gradle/caches/transforms-3/1ea967b797818d9badf6aaa0240ca184/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+69            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+69-->[com.google.android.gms:play-services-base:17.0.0] /Users/hrant011/.gradle/caches/transforms-3/1ea967b797818d9badf6aaa0240ca184/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+70            android:exported="false"
+70-->[com.google.android.gms:play-services-base:17.0.0] /Users/hrant011/.gradle/caches/transforms-3/1ea967b797818d9badf6aaa0240ca184/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+71            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+71-->[com.google.android.gms:play-services-base:17.0.0] /Users/hrant011/.gradle/caches/transforms-3/1ea967b797818d9badf6aaa0240ca184/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+72
+73        <meta-data
+73-->[com.google.android.gms:play-services-basement:17.0.0] /Users/hrant011/.gradle/caches/transforms-3/4ef803ba34d31dcf48df123a27eb5d76/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+74            android:name="com.google.android.gms.version"
+74-->[com.google.android.gms:play-services-basement:17.0.0] /Users/hrant011/.gradle/caches/transforms-3/4ef803ba34d31dcf48df123a27eb5d76/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+75            android:value="@integer/google_play_services_version" />
+75-->[com.google.android.gms:play-services-basement:17.0.0] /Users/hrant011/.gradle/caches/transforms-3/4ef803ba34d31dcf48df123a27eb5d76/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+76    </application>
+77
+78</manifest>
